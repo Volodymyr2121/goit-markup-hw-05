@@ -636,6 +636,10 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.box-coment{
+    margin-bottom: 16px;
+}
+
 .modal-text{
     width: 100%;
         border-radius: 4px;
@@ -673,10 +677,20 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     fill: transparent;
 }
+
+.modal-label-policy{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8e8f99;
+}
+
 .policy-icon{
 }
 .policy-input:checked + .modal-label span{
     background-color: #404BBF;
+    border: none;
+    fill:#F4F4FD;
 }
 
 .policy-box{
